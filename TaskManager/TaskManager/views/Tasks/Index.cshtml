@@ -1,0 +1,46 @@
+﻿@model IEnumerable<TaskManager.Models.Tasks>
+
+@{
+    Layout = "~/Views/Layouts/TeacherLayout.cshtml";
+    ViewBag.Title = "Index";
+}
+
+<h2>Tasks</h2>
+
+<table class="table">
+    <tr>
+        <th>
+            Task Name
+        </th>
+        <th>
+            Description
+        </th>
+        <th>
+            Deadline
+        </th>
+        <th>Date Created</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.deadline)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dateCreated)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.TasksID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.TasksID })
+        </td>
+    </tr>
+}
+
+</table>
+@section scripts{}

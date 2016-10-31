@@ -1,0 +1,58 @@
+﻿@model TaskManager.Models.MyTasksVM
+
+@{
+    Layout = "../Layouts/StudentLayout.cshtml";
+    ViewBag.Title = "Chat";
+}
+
+<h2>Chat</h2>
+
+<div class="col-md-8 col-md-offset-2">
+    <div id="answer" style="height: 100px;"></div>
+    <textarea id="compose-box" rows="2" cols="50" placeholder="Type your message here"></textarea>
+    <br />
+    <input type="text" id="studentName" placeholder="name" />
+    <button type="button"
+            class="btn btn-info buttons chatBtn">
+        Send Message
+    </button>
+</div>
+
+
+@section scripts {
+    <!--Script references. -->
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+
+    <script>
+
+            $(function () {
+
+                var myHub = $.connection.myHub;
+                //// Create a function that the hub can call back to display who needs help
+                myHub.client.askforhelp = function (admin, message) {
+                    // Add the message to the page.
+                    $('#answer').append('<li><strong>' + admin
+                        + '</strong>: ' + message + '</li>');
+                };
+
+
+                $.connection.hub.start().done(function () {
+                    console.log('Singnal R started');
+                });
+
+                $('.chatBtn').click(function () {
+
+                    var message = $("#compose-box").val();
+                    //var taskName = $(this).val();
+                    var studentName = $('#studentName').val();
+                    myHub.server.help(studentName, message);
+
+                });
+
+
+            });
+
+    </script>
+}
+

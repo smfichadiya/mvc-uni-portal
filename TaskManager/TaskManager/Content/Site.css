@@ -1,0 +1,72 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+.selectSection{
+    margin-top:25px;
+}
+.tasksDiv{
+    border: 1px solid #ddd;
+    margin-top:50px;
+}
+.checkbox{
+    width:100px;
+}
+.checkbox label:after 
+    {
+    content: '';
+    display: table;
+    clear: both;
+}
+.tasksTitle{
+    text-align: center;
+    padding:0px;
+}
+input[type=checkbox]
+{
+  /* Double-sized Checkboxes */
+  -ms-transform: scale(3); /* IE */
+  -moz-transform: scale(3); /* FF */
+  -webkit-transform: scale(3); /* Safari and Chrome */
+  -o-transform: scale(3); /* Opera */
+}
+input[type=text]
+{
+ height:35px;
+ text-align:center;
+}
+.squaredCheckBox{
+    position:absolute;
+    top:150px;
+    left:40px;
+}
+.taskDescription{
+    padding:50px;
+    margin-left:300px;
+}
+.btn-toolbar{
+   margin-top: 0px;
+   padding:0px;
+   float:right;
+}
+.buttons{
+    margin-top:17px;
+}
+
+footer {
+  text-align: center;
+}

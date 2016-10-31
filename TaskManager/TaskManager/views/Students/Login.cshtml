@@ -1,0 +1,29 @@
+﻿
+@{
+    Layout = "~/Views/Layouts/StudentLayout.cshtml";
+    ViewBag.Title = "Login";
+}
+
+
+<div class="container">
+    <div class="row">
+        <form method="post">
+
+            <div class="col-md-3 col-md-offset-1">
+                <h2>Your Name:</h2>
+            </div>
+
+            <div class="col-md-2  selectSection">
+                <input type="text" placeholder="First Name" name="first_name" />
+            </div>
+            <div class="col-md-2  selectSection">
+                <input type="text" name="last_name" placeholder="Last Name" />
+            </div>
+            <div class="col-md-2 selectSection">
+                <input type="submit" class="btn btn-success form-control" value="View Tasks">
+            </div>
+            </form>
+</div>
+  </div>
+@section scripts {
+}

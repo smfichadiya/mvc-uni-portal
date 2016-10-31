@@ -1,0 +1,143 @@
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\csc.exe
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\vbc.exe
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\TaskManager.dll.config
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\TaskManager.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\TaskManager.pdb
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\EntityFramework.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Razor.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\EntityFramework.xml
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Razor.xml
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.xml
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.init.resources
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.user.GenerateResource.Cache
+C:\Users\HP\Documents\GitHub\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.userResolveAssemblyReference.cache
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\csc.exe
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\vbc.exe
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\TaskManager.dll.config
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\TaskManager.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\TaskManager.pdb
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\EntityFramework.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Razor.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\EntityFramework.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Razor.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Owin.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.userResolveAssemblyReference.cache
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.init.resources
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.user.GenerateResource.Cache
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\csc.exe
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\vbc.exe
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\VBCSCompiler.exe
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\TaskManager.dll.config
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\TaskManager.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\TaskManager.pdb
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\EntityFramework.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.Security.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Newtonsoft.Json.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Owin.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Helpers.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Mvc.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Razor.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Deployment.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Razor.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\EntityFramework.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\EntityFramework.SqlServer.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Microsoft.Owin.Security.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\Newtonsoft.Json.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Razor.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Deployment.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Webpages.Razor.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Helpers.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\bin\System.Web.Mvc.xml
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.userResolveAssemblyReference.cache
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.Migrations.init.resources
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.csproj.user.GenerateResource.Cache
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.dll
+C:\Users\HP\Dropbox (Personal)\Dev Env\task-manager-last-version\task-manager\TaskManager\TaskManager\obj\Debug\TaskManager.pdb

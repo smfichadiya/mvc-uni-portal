@@ -1,0 +1,68 @@
+﻿@model TaskManager.Models.MyTasksVM
+
+@{
+    Layout = "~/Views/Layouts/StudentLayout.cshtml";
+    ViewBag.Title = "MyTasksView";
+}
+
+
+<h1>@Model.Students.name's Projects</h1>
+<div class="container">
+    <!-- container with all checkboxes-->
+    <div class="col-md-6 col-md-offset-3 tasksDiv">
+        <table class="table">
+            @foreach (var item in Model.Status)
+            {
+                if (item.StudentsID == Model.Students.StudentsID)
+                {
+                    <tbody>
+                        <tr>
+                            <td><h2 class="taskName">@item.Tasks.name</h2></td>
+                            <td>
+                                <div class="btn-toolbar">
+                             @if (@item.status != "completed")
+                             {        <button type="button" class="btn btn-primary buttons btnDone">@Html.ActionLink("HELP", "MarkHelp", new { statusId = item.StatusID, studentId = Model.Students.StudentsID })</button>
+                                    <button type="button" class="btn btn-success buttons btnDone">@Html.ActionLink("MARK DONE", "MarkDone", new { statusId = item.StatusID, studentId = Model.Students.StudentsID })</button>
+
+                             }
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p style="padding:50px;">@item.Tasks.description</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <h2>Status: @item.status</h2>
+                            </td>
+                        </tr>
+                    </tbody>
+                }
+            }
+        </table>
+    </div>
+</div>
+
+@section scripts {
+    <!--Script references. -->
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+
+    <script>
+
+        $(function () {
+
+            var myHub = $.connection.myHub;
+            //// Create a function that the hub can call back to display who needs help
+
+       
+
+               $.connection.hub.start().done(function () {
+                   console.log('Singnal R started');
+               });
+
+        });
+</script>
+}

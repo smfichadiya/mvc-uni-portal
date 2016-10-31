@@ -1,0 +1,57 @@
+﻿@model TaskManager.Models.IndexVM
+
+@{
+    Layout = "~/Views/Layouts/StudentLayout.cshtml";
+    ViewBag.Title = "Index";
+}
+@section scripts{
+    }
+<form method="post">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-1">
+                <h1>Tasks:</h1>
+            </div>
+
+            <div class="col-md-2  selectSection">
+                <input type="text" placeholder="First Name" name="memberName" />
+            </div>
+            <div class="col-md-2  selectSection">
+                <input type="text" name="last_name" placeholder="Last Name" />
+            </div>
+            <div class="col-md-2 selectSection">
+                <input type="submit" class="btn btn-success form-control" value="Add">
+            </div>
+        </div>
+    </div> <!-- end of container -->
+    <hr />
+    <div class="container-fluid">
+        <!-- container with all checkboxes-->
+        <div class="col-md-8 col-md-offset-2 tasksDiv">
+
+            <table class="table">
+                @foreach (var item in Model.Tasks)
+            {
+                    <tbody>
+                        <tr>
+                            <th><h3 class="tasksTitle">@Html.DisplayFor(modelItem => item.name)   </h3></th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="squaredFour">
+                                    <input type="checkbox" value=@Html.DisplayFor(modelItem => item.TasksID) name="selectedTask" />
+                                    <label for="squaredFour" class="taskDescription">
+                                        @Html.DisplayFor(modelItem => item.description)
+                                    </label>
+                                    deadline: @Html.DisplayFor(modelItem => item.deadline)
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                }
+            </table>
+        </div>
+    </div>
+</form>
+

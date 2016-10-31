@@ -1,0 +1,36 @@
+﻿
+@{
+    Layout = "~/Views/Layouts/TeacherLayout.cshtml";
+    ViewBag.Title = "Help";
+}
+
+<h2>Help List</h2>
+
+<div class="container" style="padding-top: 5%">
+
+    <div class="row">
+        <div class="col-md-5 col-md-offset-3" style="height: 200px; border: 1px solid black" id="listDiv"></div>
+    </div>
+</div>
+
+@section scripts {
+    <!--Script references. -->
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+
+    <script>
+
+        $(function () {
+
+            var myHub = $.connection.myHub;
+            // Create a function that the hub can call back to display who needs help
+            myHub.client.getMessage = function (name) {
+                // Add the message to the page.
+                $('#listDiv').append('<li>'+name+'</li>');
+            };
+            $.connection.hub.start().done(function () {
+            });
+
+        });
+    </script>
+}

@@ -1,0 +1,23 @@
+﻿@model TaskManager.Models.StatisticsVM
+
+@{
+    Layout = "~/Views/Layouts/TeacherLayout.cshtml";
+    ViewBag.Title = "Statistics";
+
+}
+
+<h2>Statistics</h2>
+<div>
+    <span class="glyphicon glyphicon-user" />TOTAL STUDENTS: @Model.Students.Count()
+    <span class="glyphicon glyphicon-list-alt" />TOTAL TASKS: @Model.Tasks.Count()
+</div>
+<div>
+    <h3>TASKS WAITING FOR FOR HELP: @Model.Status.Where(s => s.status == "in need of help").Count() </h3>
+    <!-- get task deadline and compare to date submitted from completed tasks-->
+    <h3>SUBMITTED ON TIME: @Model.Status.Where(s => s.status == "completed" && s.dateSubmitted <= s.Tasks.deadline).Count()</h3>
+    <h3>OVERDUE: @Model.Status.Where(s => s.status == "completed" && s.dateSubmitted > s.Tasks.deadline).Count()</h3>
+</div>
+@section scripts{
+
+    }
+

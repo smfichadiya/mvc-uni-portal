@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+<head>
+    <link href="@Url.Content("~/Content/Home.css")" rel="stylesheet" type="text/css"/>
+</head>
+<div style="height: 70vh">
+    <img src="/Content/images/icon.png" />
+    <h1>KEAssign</h1>
+    <h3>"DREAMS DON'T WORK <br /> UNTIL YOU DO"</h3>
+    <i class="lead">Task management tool for KEA students.</i><br />
+    <button class="btn btn-default btn-lg"> @Html.ActionLink("Teacher Portal", "", "Tasks")</button>
+    <button class="btn btn-default btn-lg">@Html.ActionLink("Student Portal", "", "Students")</button>
+</div>
+

@@ -1,0 +1,57 @@
+﻿
+@{
+    Layout = "../Layouts/TeacherLayout.cshtml";
+    ViewBag.Title = "Chat";
+}
+
+<h2>Chat</h2>
+
+<div id="helpList"></div>
+<textarea id="compose-box-admin" rows="2" cols="50" placeholder="Type your message here"></textarea>
+<button type="button"
+        class="btn btn-info buttons chatBtn-admin">
+    Reply
+</button>
+
+
+@section scripts {
+    <!--Script references. -->
+    <script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+    <script src="~/signalr/hubs"></script>
+
+    <script>
+
+        $(function() {
+
+            var myHub = $.connection.myHub;
+            // Create a function that the hub can call back to display who needs help
+
+            myHub.client.askforhelp = function (studentName, message) {
+                // Add the message to the page.
+                $('#helpList').append('<li><strong>' + studentName
+                    + '</strong>: ' + message + '</li>');
+            };
+
+            $.connection.hub.start().done(function() {
+                console.log('Singnal R started');
+            });
+
+            $('.chatBtn-admin').click(function () {
+
+                var message = $("#compose-box-admin").val();
+                //var taskName = $(this).val();
+                var admin = 'admin';
+                myHub.server.help(admin, message);
+
+            });
+
+            myHub.client.answer = function (admin, message) {
+                // Add the message to the page.
+                $('#helplist').append('<li><strong>' + admin
+                    + '</strong>: ' + message + '</li>');
+            };
+
+        });
+    </script>
+
+}
